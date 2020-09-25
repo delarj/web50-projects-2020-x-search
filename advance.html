@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href='/styles.css' rel='stylesheet'>
+        <title>Advance Search</title>
+    </head>
+    <body>
+        <nav class="navbar-adv">
+            <div>
+                <div class='container-left'>
+                    <a id='google-lnk-adv' href="/">
+                        <span id='google-g1' class='google-logo-adv'>G</span>
+                        <span id='google-o1' class='google-logo-adv'>o</span>
+                        <span id='google-o2' class='google-logo-adv'>o</span>
+                        <span id='google-g2' class='google-logo-adv'>g</span>
+                        <span id='google-l' class='google-logo-adv'>l</span>
+                        <span id='google-e' class='google-logo-adv'>e</span>
+                    </a>
+                </div>
+                <div class="navbar-link-list">
+                    <ul>
+                        <li class="navbar-itm"><a href='/index.html'>Google Search</a></li>
+                        <li class="navbar-itm"><a href='/image.html'>Image Search</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id='adv-sch-container'>
+            <div id='adv-heading'>
+                <span>Advance Search</span>
+            </div>
+            <form action="https://google.com/search">
+                <div class="flex-container">
+                    <div id='adv-lead-in-cont' class="resp-lead-in">
+                        <span>Find pages with...</span>
+                    </div>
+                    <div id='adv-inst-head-cont' class='resp-hide'>
+                        <span>To do this in the search box</span>
+                    </div>
+                </div>
+                <div class='flex-container margins'>
+                    <div class="lbl-cont">
+                        <label class='adv-lbl'>all these words:</label>
+                    </div>
+                    <div class='container-center'>
+                        <input  class='adv-input resp-input' type="text" name="as_q" autofocus>
+                    </div>
+                    <div class="adv-inst-cont">
+                        <span class="adv-inst resp-hide">Type the important words:</span><span class="int-examples resp-hide">tricolor rat terrier</span>
+                    </div>
+                </div>
+                <div class="flex-container margins">
+                    <div class="lbl-cont">
+                        <label class='adv-lbl'>this exact word or phrase:</label>
+                    </div>
+                    <div class='container-center'>
+                        <input class='adv-input resp-input' type="text" name="as_epq">
+                    </div>
+                    <div class="adv-inst-cont">
+                        <span class="adv-inst resp-hide">Put exact words in quotes:</span><span class="int-examples resp-hide">"rat terrier"</span>
+                    </div>
+                </div>
+                <div class='flex-container margins'>
+                    <div class="lbl-cont">
+                        <label class='adv-lbl'>any of these words:</label>
+                    </div>
+                
+                    <div class='container-center'>
+                        <input class='adv-input resp-input' type="text" name="as_oq">
+                    </div>
+                    <div class="adv-inst-cont">
+                        <span class="adv-inst resp-hide">Type OR between all the words you want:</span><span class="int-examples resp-hide">miniature OR standard</span>
+                    </div>
+                </div>
+                <div class='flex-container margins'> 
+                    <div class="lbl-cont">
+                        <label class='adv-lbl'>none of these words:</label>
+                    </div>
+                <div>
+                        <input class='adv-input resp-input' type="text" name="as_eq">
+                    </div>
+                    <div class="adv-inst-cont">
+                        <span class="adv-inst resp-hide">Put a minus sign just before words you don't want:</span><span class="int-examples resp-hide">-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div>
+                    <input class='btn2 resp-btn2' type="submit" value="Advance Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

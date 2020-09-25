@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href='/styles.css' rel='stylesheet'>
+        <title>Image Search</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div>
+                <ul>
+                    <li class="navbar-itm"><a href='/index.html'>Google Search</a></li>
+                    <li class="navbar-itm"><a href='/advance.html'>Advance Search</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class='container-center'>
+            <span id='google-g1' class='google-logo'>G</span>
+            <span id='google-o1' class='google-logo'>o</span>
+            <span id='google-o2' class='google-logo'>o</span>
+            <span id='google-g2' class='google-logo'>g</span>
+            <span id='google-l' class='google-logo'>l</span>
+            <span id='google-e' class='google-logo'>e</span>
+            <span id='img-logo-small'>Images</span>
+        </div>
+        <form action="https://www.google.com/search">
+            <div class='container-center'>
+                <!--Credit: User "Lucas" in StackOverflow @ https://stackoverflow.com/questions/54846613/custom-google-search-not-google-custom-search -->
+                <!--This provides the tbm paramater value to specify as img query-->
+                <input name="tbm" value="isch" type="hidden">
+                <input class="search-input" type="text" name="q" autofocus>
+            </div>
+            <div class='container-center'>
+                <input class='btn1' type="submit" value="Image Search">
+            </div>
+        </form>
+    </body>
+</html>
